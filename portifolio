@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #eee;
+            padding: 10px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .project {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            transition: transform 1.5s ease-in-out;
+        }
+
+        .project:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+    <title>Your Advanced Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <h1>Portfolio</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#personal-details">Personal Details</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm Kotla Avinash,a passionate and dedicated Computer Science Engineering student currently in my 3rd year. With a strong foundation in programming and problem-solving, I am eager to contribute to innovative projects and explore new technologies.</p>
+    </section>
+
+    <section id="education">
+        <h2> Education </h2>
+        <div class="education-item">
+            <h3>GITAM UNIVERSITY</h3>
+            <p>Degree: Bachelor of Science in Computer Science</p>
+            <p>Graduation Year: 2025</p>
+        </div>
+        <div class="education-item">
+            <h3>Sri Sai Aditya</h3>
+            <p>COURSE: M.P.C</p>
+            <p>Graduation Year: 2021</p>
+        </div>
+        <div class="education-item">
+            <h3>Sri Chaitanya Techno School</h3>
+            <p>BOARD: SSC</p>
+            <p>Graduation Year: 2019</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>  
+
+        <li>Basics of C , Java</li>  
+
+        <li>Front-end development</li>  
+
+        <li>Data structures </li>
+        <li>Cyber Security</li>  
+
+    </ul>  
+    </section>
+
+    <section id="personal-details">
+        <h2>Personal Details</h2>
+         <div class="Personal Details">
+            <ul>  
+
+            <li>Date of Birth : 23/07/2003</li>  
+
+            <li>Marital Status : Single</li>  
+
+            <li>Nationality : Indian</li>  
+
+            <li>Father's name : Kotla Venkata Satyanarayana</li>  
+
+            <li>Mother's name : Kotla Prasanna Lakshmi</li>  
+
+        </ul>  
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Phone no: 9999999999</p>
+        <p>Email: akotla@gitam.in </p>
+        <p>LinkedIn: <a href="https://in.linkedin.com/" target="_blank">linkedin.com/in/yourprofile</a></p>
+	<p>Instagram: <a href="https://www.instagram.com/" target="_blank">Instagram.com/in/yourprofile</a></p>
+	Feel free to reach out to me via email at akotla@gitam.in. Connect with me on LinkedIn and Instagram to stay updated on my professional journey.
+
+I am excited about the opportunity to contribute to innovative projects and explore new horizons in the ever-evolving field of technology.
+        <!-- Add more contact information as needed -->
+    
+    </section>
+
+    <footer>
+        <!-- Footer content -->
+    </footer>
+
+</body>
+</html>
